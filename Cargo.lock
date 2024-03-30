@@ -10,9 +10,9 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
 name = "getopt"
-version = "1.1.4"
+version = "1.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9f3699253a5e0cc57029e178afc29b4655531d95f20301aba488064fc08fc47a"
+checksum = "ab878c0f405de260131d9f6b69ca9dec9f601a447387ea038735c3fb486983c3"
 
 [[package]]
 name = "getrandom"
@@ -33,9 +33,9 @@ checksum = "c8b35f3ad95576ac81603375dfe47a0450b70a368aa34d2b6e5bb0a0d7f02428"
 
 [[package]]
 name = "libc"
-version = "0.2.152"
+version = "0.2.153"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "13e3bf6590cbc649f4d1a3eefc9d5d6eb746f5200ffb04e5e142700b8faa56e7"
+checksum = "9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd"
 
 [[package]]
 name = "ppv-lite86"
@@ -45,8 +45,8 @@ checksum = "5b40af805b3121feab8a3c29f04d8ad262fa8e0561883e7653e024ae4479e6de"
 
 [[package]]
 name = "program"
-version = "1.0.1"
-source = "git+git://git.dragonma.us/rust/program#45a5dab00f2020bc8ea22af230bd3339ec0e1aef"
+version = "1.0.2"
+source = "git+git://git.dragonma.us/rust/program#f65a78fc5db0238c23034629379716467f8a928e"
 
 [[package]]
 name = "rand"
@@ -80,7 +80,7 @@ dependencies = [
 
 [[package]]
 name = "random-wallpaper"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "getopt",
  "imghdr",
@@ -94,7 +94,7 @@ dependencies = [
 [[package]]
 name = "realpath"
 version = "1.0.1"
-source = "git+git://git.dragonma.us/rust/realpath#0a8feb40e6ec4ebb7d54add38b0b53b6e0417c45"
+source = "git+git://git.dragonma.us/rust/realpath#8879310ee59be96f07ad743630a395cd469e0b6a"
 dependencies = [
  "getopt",
  "program",
@@ -111,9 +111,9 @@ dependencies = [
 
 [[package]]
 name = "walkdir"
-version = "2.4.0"
+version = "2.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d71d857dc86794ca4c280d616f7da00d2dbfd8cd788846559a6813e6aa4b54ee"
+checksum = "29790946404f91d9c5d06f9874efddea1dc06c5efe94541a7d6863108e3a5e4b"
 dependencies = [
  "same-file",
  "winapi-util",

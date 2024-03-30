@@ -29,7 +29,7 @@ fn program(name: &str) -> program::Result {
                 Opt('h', None) => {
                     print_usage(name);
                     return Ok(0);
-                },
+                }
                 _ => unreachable!(),
             },
         }
@@ -58,7 +58,7 @@ fn program(name: &str) -> program::Result {
                 println!("{}", path.to_string_lossy());
             };
             util::wallpaper::set(&path)?
-        },
+        }
         None => return Err(Box::new(std::io::Error::other("unexpected error"))),
     };
 
