@@ -1,8 +1,9 @@
 [package]
 name = "random-wallpaper"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["David Wildasin <dragonmaus@posteo.net>"]
 edition = "2021"
+rust-version = "1.74.0"
 description = "Set a random wallpaper from a directory tree of background images"
 repository = "http://git.dragonma.us/rust/random-wallpaper"
 license = "BBSD-3-Clause-Clear"
@@ -14,10 +15,8 @@ getopt = "1"
 imghdr = "0.7"
 rand = "0.8"
 walkdir = "2"
-
 [dependencies.program]
 git = "git://git.dragonma.us/rust/program"
-
 [dependencies.realpath]
 git = "git://git.dragonma.us/rust/realpath"
 
